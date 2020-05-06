@@ -1,0 +1,385 @@
+ body{
+    margin: 0;
+ }
+
+ #item-color{
+    color:grey;
+ }
+
+.main{
+    display: flex; 
+    background-color: rgb(49, 109, 195) ;
+}
+
+.images{
+    margin-left: 90px;
+    margin-top: 10px;
+   
+}
+
+.main p{
+    margin-top: 10px;
+    color: white;
+    margin-left:130px;
+    
+}
+
+.header_buttons{
+    margin-top: 10px;
+    margin-left: 70px;
+    
+}
+
+.header_buttons button{
+    
+    color: grey;
+    height:28px;
+    cursor: pointer;
+    
+}
+
+#navbarSupportedContent{
+    padding:1px;
+    margin-left: 450px; 
+    font-size: 15px;
+  
+    
+}
+
+#home{
+    background-color: rgb(49, 109, 195);
+    color: white;
+    border-radius: 100px;
+    width: 70px;
+    text-align: center ;
+}
+#white,#navbarDropdown{
+    color: black;
+}
+
+#white:hover , #navbarDropdown:hover{
+    color: white;
+    background-color: rgb(49, 109, 195);
+    border-radius: 100px;
+    
+}
+
+.headline{
+    display: flex;
+    background-color: rgb(49, 109, 195) ;
+    justify-content: center;
+    margin-top: 10px;
+}
+.head1{
+color: #00FF00;
+margin-bottom: 5px;
+}
+
+.head2{
+margin-left: 5px;
+color: white;
+margin-bottom: 5px;
+}
+
+.intro{
+    background-color: rgb(247,248,250);
+    margin-top: 10px; 
+    margin-bottom: 0px;
+}
+
+.intro_img , .count img{
+    padding-top: 50px;
+    display: block;
+    margin: 0px auto;
+}
+
+.intro p{
+    color: grey;
+    padding-top: 20px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.intro_last_p{
+    padding-bottom: 100px;
+}
+
+.count{
+    background-color: rgb(39,85,233);
+    display: flex;
+    margin-top: -20px;
+    padding-bottom: 70px;
+    justify-content: space-evenly;
+}
+
+
+
+.count h1{
+    color: white;
+    font-size: 50px; 
+    font-weight: 500;
+    text-align: center;
+}
+h5{
+    color: white;
+    font-weight: 600;
+}
+span{
+    font-weight: 600;
+    color: #00FF00;
+}
+
+.col{
+    display: flex;
+}
+
+
+.services{
+    padding-top: 50px;
+    margin-bottom: 100px;
+    background-color: rgb(247,248,250);
+}
+
+.services_col{
+    display: flex;  
+    justify-content: center;
+}
+
+#h_1{
+ color: rgb(39,85,233); 
+ font-weight: 600;
+ font-size: 35px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.services #h_2 , #h_2{
+color:  rgb(88,129,39);
+font-weight: 600;
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 10px;
+}
+
+#image{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+
+.box{
+    background-color: white;
+    width: 350px;
+    padding-bottom: 50px; 
+    margin-bottom: 20px;
+    padding: 25px;
+    position: relative;
+    /*   if -ve(left) ,+ve(bottom) , the smaller the valuethe sharper the shadow ,
+         +ve(increase the size of shadow , color )*/
+    box-shadow: 5px 5px 10px 3px rgb(221, 218, 218);   
+
+     
+    
+}
+
+.box img{
+    display: block;
+    margin: 0px auto;
+}
+
+.box h4{
+    color:rgb(39,85,233) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.section8a h3{
+    color: rgb(39,85,233) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.section8a h2{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+
+.section8b{
+    display: flex;
+    margin-left: 75px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 100px;     
+}
+
+.section8bb{
+    display: flex;
+    margin-left: 75px;
+    margin-top: -120px;
+    padding: 20px;
+    margin-bottom: 100px;     
+}
+
+ .box1{
+    padding: 10px;
+    display: flex;
+    width: 300px; /*350*/
+    border: 1px solid rgb(238, 235, 235);
+    background-color: rgb(247,248,250);
+    color: rgb(39,85,233) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 40px;  /* 50*/
+} 
+.box1 p{
+    margin-left: 30px; /* 30 */
+    margin-bottom: -10px;
+}
+
+
+.main2 , .section8a{
+   display: inline-block;  
+
+}
+
+.main2{
+    margin-left: 300px;
+}
+
+.main2 h3{
+    color:rgb(39,85,233);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-bottom: -5px;
+}
+
+hr {
+    position: relative;
+    border-bottom: 1px solid #aaa;
+    width: 300px;
+  }
+hr:before {
+    position: absolute;
+    width: 30%;
+    content: '';
+    height: 2px;
+    background: black;
+    top: -1px;
+  }
+
+.main2 p{
+    text-align:left;
+  }
+
+.section8b , .viv{ 
+    display: flex;  
+  } 
+
+  .viv p {
+      /* margin-left: 30px;
+      margin-top: -12px; */
+      text-align: right;
+      margin-left: 130px;
+      text-align: left
+  } 
+
+  .gallery{
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+#multiple_images{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 180px;
+}
+
+.footer{
+    background-color: rgb(37,39,46);
+    padding: 150px;
+    /* margin-bottom: 10px;   Have to remove */
+}
+
+.f1 , .f1 {
+    color: gray;
+    font-weight: 500;
+    margin-left: -50px;
+    margin-top: -50px;
+
+}
+.list{
+    list-style: none;
+    margin-left: -50px;
+}
+
+.l1 , .l2 {
+    display: inline-block;
+    margin-right: 30px;
+   
+}
+
+.l3{
+    margin-top: -200px;
+    margin-left: 400px;
+}
+
+.f1 , .under_l3{
+    display: inline-block;
+} 
+
+.under_l3 h5{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+}
+#hr {
+    position: relative;
+    border-bottom: 1px solid rgb(66, 121, 0);
+    width: 300px;
+    margin-left: 15px;
+  }
+#hr:before {
+    position: absolute;
+    width: 30%;
+    content: '';
+    height: 2px;
+    background: rgb(66, 121, 0);
+    top: -1px;
+  }
+
+  .l4{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: -60px;
+    margin-bottom: 30px;   
+  }
+
+  .bar{
+      background-color: rgb(49, 109, 217);
+      color: white;
+      
+  }
+  .bar p{
+    padding: 15px;
+    margin-left: 70px;
+    margin-bottom: -20px;
+    font-size: 12px;
+  }
+
